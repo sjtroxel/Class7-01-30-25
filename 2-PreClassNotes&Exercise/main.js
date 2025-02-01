@@ -60,14 +60,14 @@
 // console.log(doubled)
 
                 // ?? TRIPLING ?? //
-                // const numbers = [1.2, 2.4, 3.5];
-                // const tripled = [];
+                const numbers = [1.2, 2.4, 3.5];
+                const tripled = [];
 
-                // for (let i = 0; i < numbers.length; i++) {
-                //         tripled.push(numbers[i] * 3);           // <-- but ewww
-                // }
-                // console.log(tripled);
-                // console.log((tripled).toFixed(2));              // <-- i forgot how (pls HELP)
+                for (let i = 0; i < numbers.length; i++) {
+                        tripled.push(numbers[i] * 3);           // <-- but ewww
+                }
+                console.log(tripled);
+                console.log((tripled).toFixed(2));              // <-- i forgot how (pls HELP)
 
 // 3: FILTER *ODD* NUMBERS
 // const numbers = [3, 4, 5, 6, 7, 8];
